@@ -18,10 +18,13 @@
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
     </ItemGroup>
 
+<<<<<<< HEAD
     <ItemGroup>
       <Folder Include="Controllers\Analista\" />
       <Folder Include="Controllers\Jefe\" />
       <Folder Include="Controllers\Users\" />
     </ItemGroup>
 
+=======
+>>>>>>> origin/main
 </Project>
