@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JetClientState">
+    <option name="draftsState">
+      <draftsState>
+        <option name="requests">
+          <list>
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;nombre&quot;: &quot;Memo10&quot;,&#10;  &quot;correo&quot;: &quot;Memo10@memo.cl&quot;,&#10;  &quot;clave&quot;: &quot;memo&quot;,&#10;  &quot;rol&quot;: &quot;Admin&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="b3f74adb-75b0-4694-95d5-5f6e27aac3e4" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:5046/api/Access/signin" />
+            </requestState>
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;correo&quot;: &quot;Memo10@memo.cl&quot;,&#10;  &quot;rol&quot;: &quot;Admin&quot;,&#10;  &quot;clave&quot;: &quot;memo&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="438219f3-0033-4fa5-bfa8-d34ed47cf51c" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft (1)" />
+              <option name="url" value="http://localhost:5046/api/Access/login" />
+            </requestState>
+          </list>
+        </option>
+      </draftsState>
+    </option>
+    <option name="id" value="ecb24486-333f-4bce-8d21-0358003af9bc" />
+    <option name="version" value="4" />
+  </component>
+</project>
