@@ -103,31 +103,6 @@ namespace JWTApi.Controllers
                 //3.1 entregamos el token
                 var token = servicios.GenerarJWT(userGetted);
                 
-                //3.2 retornamos el exito del login (solo si no tenemos listo los cases
-                //return StatusCode(StatusCodes.Status200OK, new {message = "Usuario logueado correctamente", token});
-                
-                //3.3 ahora redirigiremos a los usuarios de acuerdo al rol asignado 
-
-                switch (login.Rol)
-                {
-                    
-                    case "Admin":
-
-                        var adminUrl = "http://localhost:5046/api/Admin/listarUnid";
-                        var adminRespuesta = await cliente.CreateClient("ClienteAdmin").GetAsync(adminUrl);
-                        var adminRedirect = adminRespuesta.RequestMessage.RequestUri.AbsoluteUri;
-                        return StatusCode(StatusCodes.Status200OK, new
-                        {
-                            Message = $"Bienvenido, admin{login.Correo}", 
-                            token,
-                            redirect = adminRedirect,
-                        });
-                    
-                    
-                    default: 
-                        return StatusCode(StatusCodes.Status403Forbidden, new { message = "Rol no valido", token = token });
-                    
-                }
                 
             }
             else
