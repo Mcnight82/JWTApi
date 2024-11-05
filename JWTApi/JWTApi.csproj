@@ -19,7 +19,9 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Models\" />
+      <Folder Include="Controllers\Analista\" />
+      <Folder Include="Controllers\Jefe\" />
+      <Folder Include="Controllers\Users\" />
     </ItemGroup>
 
 </Project>
